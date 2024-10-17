@@ -11,10 +11,17 @@ config_version=5
 [application]
 
 config/name="MeowMeowPinball"
-config/features=PackedStringArray("4.3", "GL Compatibility")
+config/features=PackedStringArray("4.3", "Mobile")
 config/icon="res://icon.svg"
+
+[autoload]
+
+MPF="*res://addons/mpf-gmc/mpf_gmc.gd"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/mpf-gmc/plugin.cfg")
 
 [rendering]
 
-renderer/rendering_method="gl_compatibility"
-renderer/rendering_method.mobile="gl_compatibility"
+renderer/rendering_method="mobile"
