@@ -1,0 +1,24 @@
+[gd_scene load_steps=2 format=3 uid="uid://bhgqqmgrfg8lo"]
+
+[ext_resource type="Script" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_xayq0"]
+
+[node name="Attract" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_xayq0")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1088.0
+color = Color(0.720394, 0.440599, 0.969112, 1)
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 536.0
+offset_top = 512.0
+offset_right = 1388.0
+offset_bottom = 649.0
+theme_override_font_sizes/font_size = 100
+text = "Welcome to GMC!"
+horizontal_alignment = 1
