@@ -1,5 +1,5 @@
 # MeowMeowPinball
-The Rhodos Makerspace's pinball project, headed by Patrick and Delphine
+Carolina Club Pinball's custom pinball machine project, headed by Patrick and Delphine
 
 ## Overview
 This is a pinball machine centered around a dog-cop in a "dog-eat-dog-eat-cat world"
